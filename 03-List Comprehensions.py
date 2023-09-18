@@ -1,4 +1,6 @@
-
+"""
+Problem link:>>>>>>>https://www.hackerrank.com/challenges/list-comprehensions/problem?isFullScreen=true
+"""
 # remove the comments for input function >>>>>>>
 x = int(input("Enter the first input:"))
 y = int(input("Enter the second input:"))
