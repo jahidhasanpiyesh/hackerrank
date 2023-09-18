@@ -3,6 +3,6 @@ Problem link>>>>>>>https://www.hackerrank.com/challenges/find-second-maximum-num
 """
 
 n = int(input())
-arr = list(set(sorted(map(int, input().split()))))
-arr.sort()
-print(arr[-2])
+arr = list(set(sorted(map(int, input().split()))))  # convert to set and list
+arr.sort()  # dont miss to sort()>>>functions
+print(arr[-2])  # index -2 position just print out
