@@ -13,4 +13,4 @@ data = 0
 for i in student_marks[query_name]:
     data = data + i  # increment to one gor
 result = data / len(student_marks[query_name])  # condition >> data / n
-print(result)
+print("{0:.2f}".format(result))
